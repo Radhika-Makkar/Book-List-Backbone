@@ -108,8 +108,9 @@ var bottom = $(this.el).find('#bottom');
 console.log(bottom);
 var card = document.createElement('div');
   card.setAttribute('class', 'card col-sm-12 col-md-4 col-lg-3');
-
+card.setAttribute('style','padding:20px')
 //Iterate through the collection
+card.setAttribute('style','margin:20px')
 _.each(this.collection.models, function (m, i, l) {
 	
 const app = document.getElementById('bottom');
